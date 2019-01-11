@@ -1,7 +1,7 @@
 library(shiny)
 source("lib.R")
 
-
+rm(list=ls())
 
 # For dropdown menu
 actionLink <- function(inputId, ...) {
